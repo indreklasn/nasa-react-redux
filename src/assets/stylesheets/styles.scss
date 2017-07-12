@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+
+$brand-purple: rgb(135,140,223);
+$brand-green: rgb(153,251,198);
+$font-size: 5rem;
+$merriweather: "Merriweather", sans-serif;
+
+body {
+  height: 100vh;
+  background: #eaeaea;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: $font-size;
+  font-weight: 900;
+  font-family: $merriweather;
+  padding: 0;
+  margin: 0;
+}
+
+
+.astronomy-card {
+	max-width: 75vw;
+	margin: 50px auto;
+	display: flex;
+	background-color: #FFF;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+	.astronomy-title {
+		margin: 25px 0;
+		padding: 15px 45px;
+		font-size: 18px;
+		color: #6200ea;
+	}
+
+	.astronomy-image-wrapper {
+		padding: 10px;
+
+		img {
+			cursor: pointer;
+			max-height: 500px;
+			filter: drop-shadow(6px 6px 12px rgba(0,0,0,0.45));
+			transition: all 325ms ease-in-out;
+			&:hover {
+				transition: all 325ms ease-in-out;
+				transform: scale(1.07);
+			}
+		}
+	}
+
+	p {
+		font-size: 12px;
+		padding: 10px 50px;
+		letter-spacing: 0.66px;
+		line-height: 2;
+	}
+
+	span {
+		font-size: 10px;
+		color: #311b92;
+		margin: 20px 0;
+	}
+}

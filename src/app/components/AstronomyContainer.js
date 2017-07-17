@@ -24,8 +24,6 @@ class AstronomyContainer extends Component {
 					astronomy: response.data
 				})
 
-				console.log(this.state.astronomy)
-
 			})
 			.catch(error => {
 				console.log(error, 'failed to fetch data')

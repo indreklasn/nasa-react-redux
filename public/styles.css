@@ -1,19 +1,57 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);body {
   height: 100vh;
-  background-color: #878cdf;
-  color: #99fbc6;
+  background: #eaeaea;
+  color: rgba(0, 0, 0, 0.87);
   font-size: 5rem;
   font-weight: 900;
-  font-family: "Merriweather", sans-serif; }
+  font-family: "Merriweather", sans-serif;
+  padding: 0;
+  margin: 0; }
 
-.container {
-  width: 100%;
+.astronomy-card {
+  max-width: 75vw;
+  margin: 50px auto;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
-  .container .image-wrapper {
-    display: inline-block;
-    margin: 0 10px; }
-    .container .image-wrapper__image {
-      width: auto;
-      height: 300px; }
+  display: flex;
+  background-color: #FFF;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .astronomy-card .astronomy-title {
+    margin: 25px 0;
+    padding: 15px 45px;
+    font-size: 18px;
+    color: #6200ea; }
+  .astronomy-card .astronomy-image-wrapper {
+    padding: 10px; }
+    .astronomy-card .astronomy-image-wrapper img {
+      cursor: pointer;
+      max-height: 500px;
+      -webkit-filter: drop-shadow(6px 6px 12px rgba(0, 0, 0, 0.45));
+      filter: drop-shadow(6px 6px 12px rgba(0, 0, 0, 0.45));
+      -webkit-transition: all 325ms ease-in-out;
+      transition: all 325ms ease-in-out; }
+      .astronomy-card .astronomy-image-wrapper img:hover {
+        -webkit-transition: all 325ms ease-in-out;
+        transition: all 325ms ease-in-out;
+        -webkit-transform: scale(1.07);
+        transform: scale(1.07); }
+  .astronomy-card p {
+    font-size: 12px;
+    padding: 10px 50px;
+    letter-spacing: 0.66px;
+    line-height: 2; }
+  .astronomy-card span {
+    font-size: 10px;
+    color: #311b92;
+    margin: 20px 0; }

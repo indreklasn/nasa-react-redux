@@ -1,21 +1,7 @@
 # Learn How To Build: Astronomy Picture Of The Day App with NASA API and React + Redux
 
-https://medium.com/@wesharehoodies/learn-how-to-build-astronomy-picture-of-the-day-app-with-nasa-api-and-react-redux-e462ef0c806c
+## [Chapter 1](https://codeburst.io/learn-how-to-build-astronomy-picture-of-the-day-app-with-nasa-api-and-react-redux-e462ef0c806c)
 
-## How to start
+## [Chapter 2](Coming soon!)
 
-```bash
-npm install
-```
 
-```
-npm run start
-```
-
-```
-npm run production
-```
-
-```
-npm run build
-```

@@ -1,7 +1,6 @@
 import React from 'react';
 
 const AstronomyCard = (props) => {
-
 	const { title,
 	 url,
 	 hdurl,
@@ -10,6 +9,7 @@ const AstronomyCard = (props) => {
 	 copyright,
 	 media_type
 	} = props.data;
+
 
 	function renderContent() {
 		switch(media_type) {

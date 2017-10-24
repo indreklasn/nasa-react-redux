@@ -1,6 +1,6 @@
 # Learn How To Build: Astronomy Picture Of The Day App with NASA API and React + Redux
 
-### Demo (NB: image/video is different everyday!)
+### Demo (image/video is different everyday!)
 
 ![demo](https://i.imgur.com/jWxdlKT.jpg)
 
